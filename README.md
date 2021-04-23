@@ -2,7 +2,7 @@
 
 A Go Module that detects `Browser capabilities` and `Client type` from a user agent string.
 
-The following keywords are supported. See [main.ts](https://github.com/herberthobregon/browser-capabilities/blob/master/main.go) for the latest browser support matrix.
+The following keywords are supported. See [main.ts](https://github.com/herberthobregon/go-browser-capabilities/blob/master/main.go) for the latest browser support matrix.
 
 > Inspired by [https://www.npmjs.com/package/browser-capabilities](https://www.npmjs.com/package/browser-capabilities) NodeJS package.
 ## 🎯 Features
@@ -35,7 +35,7 @@ package main
 
 import (
     "fmt"
-    "github.com/herberthobregon/browser-capabilities"
+    "github.com/herberthobregon/go-browser-capabilities"
 )
 
 func main() {
@@ -56,6 +56,6 @@ Make sure you have Go installed [download](https://golang.org/dl/). Version 1.14
 
 Initialize your project by creating a folder and then running `go mod init github.com/your/repo` [learn more](https://blog.golang.org/using-go-modules) inside the folder. Then install Fiber with the go get command:
 ```bash
-go get -u github.com/herberthobregon/browser-capabilities
+go get -u github.com/herberthobregon/go-browser-capabilities
 ```
 

@@ -1,3 +1,3 @@
-module github.com/herberthobregon/browser-capabilities
+module github.com/herberthobregon/go-browser-capabilities
 
 go 1.15
